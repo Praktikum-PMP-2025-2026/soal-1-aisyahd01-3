@@ -17,9 +17,9 @@ void degreeandMax(){
         printf("DEGREE %d %d\n", i, degree[i]);
     }
 
-    int index=0, maxvertex=0;
+    int index=0, maxvertex=degree[0];
     for (int i=0; i<N; i++);
-        for (degree[i]>maxvertex){
+        if (degree[i]>maxvertex){
             maxvertex=degree[i];
             index=i;
         }
