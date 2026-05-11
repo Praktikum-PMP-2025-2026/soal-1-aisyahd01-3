@@ -15,7 +15,7 @@ void Degree() {
         }
     }
 
-    for (int i = 0; i < N; i++) {
+    for (int i = 0;i < N; i++) {
         printf("DEGREE %d %d\n", i, degree[i]);
     }
 }
@@ -37,16 +37,16 @@ void findMaxVertex() {
 
 void findIsolated() {
     int found = 0;
-
+    printf("ISOLATED ");
     for (int i = 0; i < N; i++) {
         if (degree[i] == 0) {
-            printf("ISOLATED %d\n", i);
+            printf("%d\n", i);
             found = 1;
         }
     }
 
     if (!found) {
-        printf("ISOLATED NONE\n");
+        printf("NONE\n");
     }
 }
 
