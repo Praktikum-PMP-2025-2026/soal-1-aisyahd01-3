@@ -23,7 +23,7 @@ void degreeandMax(){
             maxvertex=degree[i];
             index=i;
         }
-        printf("MAX_VERTEX %d\n", &index);
+        printf("MAX_VERTEX %d\n", index);
     }
 }
 
