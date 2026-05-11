@@ -9,7 +9,7 @@ void degreeandMax(){
         for (int j=0; j<N; j++){
             degree[i]=0;
             if (matrix[i][j]==1){
-            degree[i]+=1;
+                degree[i]+=1;
         }
     }
 
@@ -18,7 +18,7 @@ void degreeandMax(){
     }
 
     int index=0, maxvertex=degree[0];
-    for (int i=0; i<N; i++);
+    for (int i=1; i<N; i++);
         if (degree[i]>maxvertex){
             maxvertex=degree[i];
             index=i;
