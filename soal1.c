@@ -19,7 +19,7 @@ void degreeandMax(){
 
     int index=0, maxvertex=0;
     for (int i=0; i<N; i++);
-        if (degree[i]>maxvertex){
+        for (degree[i]>maxvertex){
             maxvertex=degree[i];
             index=i;
         }
